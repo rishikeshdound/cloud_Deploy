@@ -1,0 +1,15 @@
+pandas 
+scikit-learn 
+streamlit 
+joblib
+sagemaker
+numpy
+smart_open
+streamlit
+# pickle
+requests
+pydeck
+folium
+datetime
+geopy
+streamlit-folium
