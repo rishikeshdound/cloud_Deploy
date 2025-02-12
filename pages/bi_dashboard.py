@@ -3,8 +3,8 @@ import streamlit as st
 import streamlit as st
 
 def bi_dashboard_page():
-    st.subheader("Business Intelligence Dashboard")
-    st.write("data visualizations and insights on cab fare trends.")
+    st.subheader("BI- Dashboard")
+    st.write("Insights on Cab Fare Trends.")
 
     # Power BI Report Embed URL
     
@@ -13,6 +13,5 @@ def bi_dashboard_page():
     # Embed Power BI report using iframe
     st.components.v1.iframe(power_bi_url, width=900, height=600)
 
-# Call the function if running the script directly
 if __name__ == "__main__":
     bi_dashboard_page()
