@@ -6,9 +6,9 @@ def bi_dashboard_page():
     st.subheader("BI- Dashboard")
     st.write("Insights on Cab Fare Trends.")
 
-    # Power BI Report Embed URL
+    # 
     
-    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiODA2NzAwNGUtMGNkNC00OTkwLWI5Y2YtZDMzZWJiZDdkOWU2IiwidCI6IjNjYjkxMTI3LTkyNDMtNGQ1Yy04NWJiLTM2Zjc4YTIwMDA2MiJ9"
+    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiZTU2MjUzOWMtYWFjNC00OGFkLTljMjctNjdkMTAzMGI0Y2VjIiwidCI6IjNjYjkxMTI3LTkyNDMtNGQ1Yy04NWJiLTM2Zjc4YTIwMDA2MiJ9"
 
     # Embed Power BI report using iframe
     st.components.v1.iframe(power_bi_url, width=900, height=600)
